@@ -12,6 +12,7 @@ ul {
     border: 2px solid black;
     justify-content: space-between;
     margin: 15px;
+    font-size: 12px;
 }
 .navListitems{
 margin-right: 15px;
@@ -24,4 +25,8 @@ margin-right: 15px;
     align-items:center;
     display: flex;
     justify-content: space-between;
+}
+.buildproduct{
+    font-size: 8px;
+    margin-right: 15px;
 }

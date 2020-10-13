@@ -15,7 +15,7 @@ class Navbar extends Component {
                   </ul>
                 <div className="build">
                     
-                    <p>BUILD A PRODUCT WITH</p>
+                   <span className='buildproduct'>BUILD A PRODUCT WITH</span>
                     <button className="button">DEVSTUDIO</button>
                 </div>
             
