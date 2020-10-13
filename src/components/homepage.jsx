@@ -54,26 +54,38 @@ opportunities
         <a href=''>HERE'S HOW</a>
     </text>
 </div>
-<div>
-    <div>
-        <div className='mainboxes'>
-    <figure className='mainboxfigure'>genesys ignite box</figure>
-        <h3><a href=''>Genesys<br/> Ignite</a></h3>
-        
+<div className='bottomboxes'>
+    <div className='innerbottomboxes'>
+    <div className='innerbottomboxes'>
+        <div><figure className='small'>genesys ignite box</figure></div>
+      <div>  <h3><a href=''>Genesys<br/> Ignite</a></h3></div>
+      </div>
+<div className='innerbottomboxes' >
+   <div> <figure className='small'>the box</figure>
+        <p>We are reimagining the workplace and how people work. Find out how our <br/>
+            co-working space can help you enjoy the work that you do.</p></div>
+     <div>       <figure className='small'>the box</figure>
+        <p>We are reimagining the workplace andhow people work. Find out how our <br/>
+            co-working space can help you enjoy the work that you do.</p>
+</div>
+    </div>
+    </div>
+    <h1>Other things we do</h1>
+
 </div>
 <div className='mainboxes'>
     <figure className='mainboxfigure'>the box</figure>
     <text>
-        <h3>Agora</h3>
-        <p>We are reimagining the workplace andhow people work. Find out how our <br/>
-            co-working space can help you enjoy the work that you do.</p>
+        <h3>Learnable</h3>
+        <p>Every year, young Nigerians are launching new careers in the technology<br/>
+        industry. Find out how Genesys is helping them do it.
+        </p>
         <a href=''>LEARN MORE</a>
     </text>
 </div>
-
-    </div>
-    <h1>Other things we do</h1>
-
+<div className='image1'>
+    <icon> arrow </icon>
+    <figure className='iconbox'></figure>
 </div>
 
 </section>

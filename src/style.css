@@ -67,7 +67,6 @@ background-color: chocolate;
     background-color:rgb(240, 239, 239) ;
 }
 .mainboxfigure{
-   
     border: 3px solid blue;
     height: 70%;
     width: 50%;
@@ -79,7 +78,13 @@ background-color: chocolate;
    height:70%;
    width:50%;
 }
-.colored{
-    background-color: darkgray;
+.bottomboxes{
+    display:flex;
+}
+.innerbottomboxes{
+    display:flex;
+}
+.small{
+    border: 2px solid black;
 }
 
