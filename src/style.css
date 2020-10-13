@@ -30,3 +30,56 @@ margin-right: 15px;
     font-size: 8px;
     margin-right: 15px;
 }
+.image1{
+    display:flex;
+    border:1px solid black;
+    height: 250px;
+    justify-content: center;
+    align-content: center;
+}
+.image1 > icon {
+    width: 5%;
+    border: 1px dashed green;
+    text-align: center;
+    margin-left:10px;
+    margin-right: 0px;
+}
+.iconbox {
+width: 95%;
+border: 1px solid red;
+margin-right: 0px;
+background-color: chocolate;
+
+}
+.mainboxes{
+    display:flex;
+    align-content: center;
+    height: 500px;
+    border: 1px solid black;
+    padding:50px 10px 0px 10px;
+}
+.mainboxescolor{
+    display:flex;
+    align-content: center;
+    height: 500px;
+    border: 1px solid black;
+    padding:50px 10px 0px 10px;
+    background-color:rgb(240, 239, 239) ;
+}
+.mainboxfigure{
+   
+    border: 3px solid blue;
+    height: 70%;
+    width: 50%;
+}
+ text {
+    display:flex;
+    flex-direction: column;
+   justify-content: center;
+   height:70%;
+   width:50%;
+}
+.colored{
+    background-color: darkgray;
+}
+
