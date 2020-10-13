@@ -6,11 +6,11 @@ class Navbar extends Component {
         return ( 
             <nav>
                 <ul>
-                    <li></li>
-                     <li></li>
-                      <li></li> 
-                      <li></li>
-                      <li></li>
+                    <li>learnable</li>
+                     <li>agora</li>
+                      <li>startzone</li> 
+                      <li>about</li>
+                      <li>contact</li>
                     <div className="build">
                         <p>build a product with</p>
                         <button className="button">DEVSTUDIO</button>
