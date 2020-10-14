@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar'
+import Navbar from './Navbar';
+import Navbar2 from './Navbar2';
+import LearnableSw from './LearnableSw'
 
 class Homepage extends Component {
     state = {  }
@@ -8,6 +10,8 @@ class Homepage extends Component {
 <div>
 <section id="section1">
     <Navbar />,
+    <Navbar2 />
+    <LearnableSw/>
     <header>
         <h1>Genesys Provides Opportunity For<br/>
         Young Nigerian Techies And<br/>
@@ -55,7 +59,7 @@ opportunities
     </text>
 </div>
 <div className='bottomboxes'>
-    <div className='innerbottomboxes'>
+    <div className='innerbottomboxes1'>
     <div className='innerbottomboxes'>
         <div><figure className='small'>genesys ignite box</figure></div>
       <div>  <h3><a href=''>Genesys<br/> Ignite</a></h3></div>

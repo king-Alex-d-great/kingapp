@@ -84,7 +84,58 @@ background-color: chocolate;
 .innerbottomboxes{
     display:flex;
 }
+.innerbottomboxes1{
+    display:flex;
+    flex-direction: column;
+}
 .small{
     border: 2px solid black;
 }
 
+/* navbar2 */
+.nav2lists{
+    display:flex;
+    justify-content: center;
+   background-color: rgb(6, 6, 58);
+   padding: 5px 5px;
+
+}
+.nav2lists>li>a{
+    margin-right:10px;
+    color: white;
+    font-size: 12px;
+}
+
+/* learnable software */
+.learnablesw{
+    display:flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    margin:auto;
+}
+.learnablesw>h1{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: 50px;
+    color:  rgb(6, 6, 58);
+}
+.circleimage{
+    background-color: plum;
+    width: 200px;
+    height:200px;
+   border-radius: 50%;
+   margin: auto;
+}
+.container>h1{
+    color: rgb(35, 106, 58)
+}
+.articlebar{
+    display:flex;
+    flex-direction:column;
+    align-content: center;
+}
+
+/* special box */
+.specialbox{
+    
+}
