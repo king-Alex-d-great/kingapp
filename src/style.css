@@ -137,5 +137,6 @@ background-color: chocolate;
 
 /* special box */
 .specialbox{
-    
+    width: 200px;
+    height:200px;
 }
