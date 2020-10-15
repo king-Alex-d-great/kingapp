@@ -130,13 +130,17 @@ background-color: chocolate;
     color: rgb(35, 106, 58)
 }
 .articlebar{
-    display:flex;
-    flex-direction:column;
-    align-content: center;
+    text-align: center;
+}
+
+.smalltext{
+    font-size: x-small;
 }
 
 /* special box */
 .specialbox{
-    width: 200px;
-    height:200px;
+    width: 500px;
+    height:500px;
+    border: 1px solid black;
+    margin:auto;
 }

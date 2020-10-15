@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
-import LearnableSw from './LearnableSw'
+/*import LearnableSw from './LearnableSw';
+import LearnablePd from './LearnablePd';
+import Apply from './Apply';*/
+import  Faq from './Faq';
 
 class Homepage extends Component {
     state = {  }
@@ -11,7 +14,7 @@ class Homepage extends Component {
 <section id="section1">
     <Navbar />,
     <Navbar2 />
-    <LearnableSw/>
+    <Faq />
     <header>
         <h1>Genesys Provides Opportunity For<br/>
         Young Nigerian Techies And<br/>
