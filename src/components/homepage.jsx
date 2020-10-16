@@ -4,7 +4,8 @@ import Navbar2 from './Navbar2';
 /*import LearnableSw from './LearnableSw';
 import LearnablePd from './LearnablePd';
 import Apply from './Apply';*/
-import  Faq from './Faq';
+/*import  Faq from './Faq';*/
+import Journal from './Journal'
 
 class Homepage extends Component {
     state = {  }
@@ -14,7 +15,7 @@ class Homepage extends Component {
 <section id="section1">
     <Navbar />,
     <Navbar2 />
-    <Faq />
+    <Journal />
     <header>
         <h1>Genesys Provides Opportunity For<br/>
         Young Nigerian Techies And<br/>
