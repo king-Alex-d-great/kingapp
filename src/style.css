@@ -46,7 +46,6 @@ margin-right: 15px;
 }
 .iconbox {
 width: 95%;
-border: 1px solid red;
 margin-right: 0px;
 background-color: chocolate;
 
@@ -195,3 +194,63 @@ width:20em;
     align-content:center;
 }
 /*footer*/
+.iconbox{
+    display:flex;
+    align-items: center;
+    align-content:center ;
+    justify-content: space-evenly;
+    height:100%;
+}
+.iconbox > h4{
+    font-size: x-large;
+}
+.footerEmailpolicy{
+    width:20em;
+}
+.footersmall{
+    display:flex;
+    justify-content: center;
+    height:100%;
+    width: 50%;
+}
+.footersmall > div{
+    margin:auto;
+    font-size: x-small;
+}
+.footerbottomsec{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: x-small;
+    margin: 20px 0 20px 0;
+    height:20em;
+}
+.footerlocation{
+    line-height:30px;
+    margin-top: 5px;
+}
+.footerlist{
+    line-height: 35px;
+    list-style-type: none;
+}
+.footermainboxes{
+    display:flex;
+    align-content: center;
+   padding: 30px 20px 0 0;
+}
+
+.footermainboxfigure{
+    border: 3px solid yellow;
+    height:150px;
+    width: 250px;
+    margin-right:50px
+}
+.footertext{
+    align-self: flex-end;
+}
+.privacy{
+    display:flex;
+    justify-content: space-evenly;
+    width:400px;
+    margin:auto;
+}

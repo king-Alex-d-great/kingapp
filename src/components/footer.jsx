@@ -4,34 +4,69 @@ class Footer extends Component {
     state = {  }
     render() { 
         return (
-             <div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <text>
-                <p></p>
-                <a href=''></a>
-            </text>
-            <div>
-                <figure>
-                </figure>
-                <text>
-                    <p></p>
-                    <a href=''></a>
-                </text>
-            </div>
-            <div>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-                <figure></figure>
-            </div>
+             <section className="Footer">
+                 <div class='container'>
+                 <div className='image1'>
+                    <icon> arrow </icon>
+                    <div className='iconbox'>
+                        <h4>Stay Up To Date On What We<br/>
+                            Are Doing And New Learning<br/>
+                            Opportunities
+                        </h4>
+                        <div className='footersmall'>
+                        <div className='footerEmailpolicy'>
+                            <p>YOUR EMAIL</p>
+                            <hr/>
+                            <p>View Privacy Policy</p>
+                        </div>
+                        <div><button className='button'>SUBSCRIBE</button></div>
+                        </div>
+                    </div>
+                 </div>
+              <section className='footerbottomsec'>
+                  <div className='footerlist'>
+                      <li><a href=''>BUILD SOFTWARE</a></li> 
+                      <li><a href=''>DESIGN DIFFERENT</a></li>   
+                        <li><a href=''>APPLY YOUR KNOWLEDGE</a></li>
+                       <li><a href=''>FAQ</a></li> 
+                  </div>
+
+                  <div className='footerlocation' >
+                      <p>Our Local Campus center: Kilometer 7, EnuguPort<br/>
+                      Harcout, Expressway, Centenary City, Enugu.<br/>
+                      Nigeria.</p>
+                      <a href=''>GET IN TOUCH</a>
+                  </div>
+                  <div className='footermainboxes'>
+    < div className='footermainboxfigure'>the box</div> 
+    <text className='footertext'>
+        <p>Learnable is proud to be<br/>
+        a collaborative effort of <br/>
+        all the arms of our <br/>product team
+        </p>
+        <a href=''>HEAD TO DEVSTUDIO</a>
+    </text>
+</div>
+              </section>
+            <section>
+                <div className='lasticons'>
+                    <figure></figure>
+                    <figure></figure>
+                    <figure></figure>
+                    <figure></figure>
+                    <figure></figure>
+                    <figure></figure>
+                </div>
+                <div className='privacy'><p>c Genesys 2020</p>
+                <p>PRIVACY STATEMENT</p>
+                </div>
+            </section>
             
-        </div> );
+            </div>
+            </section>
+        )
     }
 }
+        
  
 export default Footer;
