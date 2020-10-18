@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
+import { FaArrowDown} from 'react-icons/fa'
+import {Link} from 'react-router-dom';
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
-/*import LearnableSw from './LearnableSw';
-import LearnablePd from './LearnablePd';
-import Apply from './Apply'; 
-import  Faq from './Faq';
-import Journal from './Journal'*/
 import Footer from './footer'
 
 class Homepage extends Component {
@@ -13,23 +10,24 @@ class Homepage extends Component {
     render() { 
         return (
 <div className='container'>
-<section id="section1">
+    <Navbar/>
+<section className="section1">
    <header>
-<h1>Genesys Provides Opportunity For<br/>
+<h1 className='bigger'>Genesys Provides Opportunity For<br/>
 Young Nigerian Techies And<br/>
 Opportunities To Grow And<br/>
 Innovate</h1>
 </header>
 <p>We understand that opportunities are scarce in this parts. We<br/>
 are either creating or exposing our people to these<br/>
-opportunities
+opportunities.
 </p>
 </section>
-
 <section>
 <div className='image1'>
-<icon> arrow </icon>
+<icon><FaArrowDown /></icon>
 <figure className='iconbox'></figure>
+
 </div>
 <div className='mainboxes'>
 <figure className='mainboxfigure'>the box</figure>
@@ -62,22 +60,24 @@ rise above it all</p>
 </div>
 <div className='bottomboxes'>
 <div className='innerbottomboxes1'>
-<div className='innerbottomboxes'>
-<div><figure className='small'>genesys ignite box</figure></div>
-<div>  <h3><a href=''>Genesys<br/> Ignite</a></h3></div>
+    <div className='innerbottombox'>
+        <figure className='small'>genesys ignite box</figure>
+    </div>
+    <div className='innerbottombox'>
+    <h3><a href=''>Genesys<br/> Ignite</a></h3>
+    </div>
+    <div className='innerbottombox'> 
+       <figure className='small'>the box</figure>
+       <p>We are reimagining the workplace and how people work. Find out how our <br/>
+       co-working space can help you enjoy the work that you do.</p>
+    </div>
+    <div className='innerbottombox'>
+        <figure className='small'>the box</figure>
+        <p>We are reimagining the workplace andhow people work. Find out how our <br/>
+co-working space can help you enjoy the work that you do.</p>
+    </div>
 </div>
-<div className='innerbottomboxes' >
-<div> <figure className='small'>the box</figure>
-<p>We are reimagining the workplace and how people work. Find out how our <br/>
-    co-working space can help you enjoy the work that you do.</p></div>
-<div>       <figure className='small'>the box</figure>
-<p>We are reimagining the workplace andhow people work. Find out how our <br/>
-    co-working space can help you enjoy the work that you do.</p>
-</div>
-</div>
-</div>
-<h1>Other things we do</h1>
-
+<div><h1>Other things we do</h1></div>
 </div>
 <div className='mainboxes'>
 <figure className='mainboxfigure'>the box</figure>
@@ -90,7 +90,7 @@ industry. Find out how Genesys is helping them do it.
 </text>
 </div>
 </section>
-<footer/>
+<Footer/>
 </div>
        );
     }
