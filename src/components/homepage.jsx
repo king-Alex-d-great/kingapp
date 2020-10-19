@@ -68,12 +68,12 @@ rise above it all</p>
     </div>
     <div className='innerbottombox'> 
        <figure className='small'>the box</figure>
-       <p>We are reimagining the workplace and how people work. Find out how our <br/>
+       <p className='smalltext'>We are reimagining the workplace and how people work. Find out how our <br/>
        co-working space can help you enjoy the work that you do.</p>
     </div>
     <div className='innerbottombox'>
         <figure className='small'>the box</figure>
-        <p>We are reimagining the workplace andhow people work. Find out how our <br/>
+        <p className='smalltext'>We are reimagining the workplace andhow people work. Find out how our <br/>
 co-working space can help you enjoy the work that you do.</p>
     </div>
 </div>

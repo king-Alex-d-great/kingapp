@@ -52,19 +52,21 @@ class Footer extends Component {
     </text>
 </div>
               </section>
-            <section>
-                <div className='lasticons'>
-                    <FaTwitter />
-                    <FaFacebook />
-                    <FaLinkedin />
-                    <FaInstagram />
-                    <FaYoutube />
-                    <FaViber />
+
+                <div className='privacy'>
+                   <div className='lasticons'>
+                   <div> <FaTwitter /></div>
+                   <div><FaFacebook /></div> 
+                   <div><FaLinkedin /></div>  
+                   <div><FaInstagram /></div>  
+                   <div> <FaYoutube /></div> 
+                   <div><FaViber /></div>  
                 </div>
-                <div className='privacy'><p>c Genesys 2020</p>
-                <p>PRIVACY STATEMENT</p>
+                <div className='lastpolicy'> <p>c Genesys 2020</p>
+                <p>PRIVACY STATEMENT</p></div>
+                   
                 </div>
-            </section>
+            
             
             </div>
             </section>
