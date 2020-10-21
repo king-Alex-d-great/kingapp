@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
+import {Link} from "react-router-dom";
 
 class Faq extends Component {
     state = {  }
@@ -16,21 +17,21 @@ class Faq extends Component {
            </section>
                     <section className='links'>
                         {/* loop could shorten this code */}
-                    <div> <a href=''> <h4>How many people can attend a course?</h4></a></div> 
-                    <div> <a href=''> <h4>What's the learning experience like </h4></a></div>
-                    <div> <a href=''> <h4>Who are the coaches?</h4></a></div> 
-                    <div> <a href=''> <h4>How long in advance should we book?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
+                    <div> <Link to='./Faq'> <h4>How many people can attend a course?</h4></Link></div> 
+                    <div> <Link to='./Faq'> <h4>What's the learning experience like </h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Who are the coaches?</h4></Link></div> 
+                    <div> <Link to='./Faq'> <h4>How long in advance should we book?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
                         
                     </section>
                     <footer />

@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { FaArrowDown} from 'react-icons/fa'
-import {Link} from 'react-router-dom';
+import { FaArrowDown} from 'react-icons/fa';
+import {Link} from "react-router-dom";
 import Navbar from './Navbar';
-import Navbar2 from './Navbar2';
-import Footer from './footer'
+import Footer from './footer';
 
 class Homepage extends Component {
     state = {  }
@@ -36,14 +35,14 @@ opportunities.
 <p>Every year, young Nigerians are launching new careers in the technology<br/>
 industry. Find out how Genesys is helping them do it.
 </p>
-<a href=''>LEARN MORE</a>
+<Link to='./Learnablehomepage'>LEARN MORE</Link>
 </text>
 </div>
 <div className='mainboxescolor'><text>
 <h3>Agora</h3>
 <p>We are reimagining the workplace andhow people work. Find out how our <br/>
     co-working space can help you enjoy the work that you do.</p>
-<a href=''>LEARN MORE</a>
+<Link to='./'>LEARN MORE</Link>
 </text>
 
 <figure className='mainboxfigure'>the box</figure>
@@ -55,7 +54,7 @@ industry. Find out how Genesys is helping them do it.
 <h3>StartZone</h3>
 <p>The business environment is harsh for early-stage businesses. We can help you<br/>
 rise above it all</p>
-<a href=''>HERE'S HOW</a>
+<Link to='./'>HERE'S HOW</Link>
 </text>
 </div>
 <div className='bottomboxes'>
@@ -64,7 +63,7 @@ rise above it all</p>
         <figure className='small'>genesys ignite box</figure>
     </div>
     <div className='innerbottombox'>
-    <h3><a href=''>Genesys<br/> Ignite</a></h3>
+    <h3><Link to='./'>Genesys<br/> Ignite</Link></h3>
     </div>
     <div className='innerbottombox'> 
        <figure className='small'>the box</figure>
@@ -86,7 +85,7 @@ co-working space can help you enjoy the work that you do.</p>
 <p>Every year, young Nigerians are launching new careers in the technology<br/>
 industry. Find out how Genesys is helping them do it.
 </p>
-<a href=''>LEARN MORE</a>
+<Link to='./'>LEARN MORE</Link>
 </text>
 </div>
 </section>

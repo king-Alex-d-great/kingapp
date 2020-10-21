@@ -15,7 +15,7 @@ class LearnablePd extends Component {
                   <h1>The<br/>Learnable<br/>Product<br/>Designer</h1>
                   <div className='circleimage'></div>
               </section>
-                  <article >
+                  <article>
                      
                      <p>At Genesys, you'll be exposed to every discipline in our creative <br/>
                      process - UX, UI, interactive design, and copywriting. You'll be<br/>
@@ -27,7 +27,7 @@ class LearnablePd extends Component {
                      winning pitches, preparing assets, and design scriptures for <br/>
                      productions, you'll be in the thick of it all.</p>
                      <p>Oh, and you'll make amazing friends while you're at it!</p>
-                         <div className=""></div>
+
                      </article>
                    
              

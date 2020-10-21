@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
-
+import {Link} from "react-router-dom";
 
 
 class Journal extends Component {
@@ -16,7 +16,7 @@ class Journal extends Component {
                        <div><h1>Journal</h1></div> 
                         <div className='journaltopside'>
                             <button className='button'>categories</button>
-                          <p><a href=''>inspiration</a></p>
+                          <p><Link to='./Journal'>inspiration</Link></p>
                         </div>
                     </section>
                        <section className='journalsection2'>
@@ -32,14 +32,14 @@ class Journal extends Component {
         <p>Every year, young Nigerians are launching new careers in the technology<br/>
         industry. Find out how Genesys is helping them do it.
         </p>
-        <a href=''>LEARN MORE</a>
+        <Link to='./LearnablePd'>LEARN MORE</Link>
     </text>
 </div>
                         </section>
-                        <section className='journalbottom'>
+                        <section classame='journalbottom'>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                               <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -50,7 +50,7 @@ class Journal extends Component {
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -61,7 +61,7 @@ class Journal extends Component {
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -72,7 +72,7 @@ class Journal extends Component {
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -83,7 +83,7 @@ class Journal extends Component {
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -94,7 +94,7 @@ class Journal extends Component {
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -105,7 +105,7 @@ class Journal extends Component {
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -116,7 +116,7 @@ class Journal extends Component {
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>

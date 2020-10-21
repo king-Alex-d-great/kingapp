@@ -28,8 +28,7 @@ class LearnableSw extends Component {
                           things, developing yourself, learning on the job, while <br/>
                           exchanging healthy jokes and having random hangouts once in a <br/>
                           while.</p>
-                          <div className=""></div>
-                      </article>
+                    </article>
                     
               
                <h1>"You are someone people <br/>

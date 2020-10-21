@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import{Link} from "react-router-dom";
 
 class Navbar2 extends Component {
     state = {  }
@@ -6,12 +7,12 @@ class Navbar2 extends Component {
         return ( 
             <section className='container'>
                 <ul className='nav2lists'>
-                    <li><a href=''>HOME</a></li>
-                    <li><a href=''>SOFTWARE DEVELOPER</a></li>
-                    <li><a href=''>PRODUCT DESIGNERS</a></li>
-                    <li><a href=''>APPLY</a></li>
-                    <li><a href=''>JOURNAL</a></li>
-                    <li><a href=''>FAQ</a></li>
+                    <li><Link to='./'>HOME</Link></li>
+                    <li><Link to='./LearnableSw'>SOFTWARE DEVELOPER</Link></li>
+                    <li><Link to='./LearnablePd'>PRODUCT DESIGNERS</Link></li>
+                    <li><Link to='./Apply'>APPLY</Link></li>
+                    <li><Link to='./Journal'>JOURNAL</Link></li>
+                    <li><Link to='./Faq'>FAQ</Link></li>
                 </ul>
             </section>
          );

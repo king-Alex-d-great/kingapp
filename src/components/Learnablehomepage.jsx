@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './footer';
+import { Link } from "react-router-dom";
 
 class Learnablehomepage extends Component {
     state = {  }
@@ -16,7 +17,7 @@ class Learnablehomepage extends Component {
                     <div className='click'>
                         
                         <p >Click to download...</p>
-                      <h4 className='bigtext'>  <a href=''>Learnable '20 Brochure</a></h4>
+                      <h4 className='bigtext'>  <Link to='./Learnablehomepage'>Learnable '20 Brochure</Link></h4>
                     </div>
                 </div>
   <section>
@@ -84,7 +85,7 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
         <p>We believe in learning through experimentation. Our aim is to<br/>
         nurture and grow bright young minds from the get-go because <br/>
         thats's how our industry will thrive.</p>
-        <a href=''>LEARN MORE</a>
+        <Link to='./LearnableSw'>LEARN MORE</Link>
     </div>
     <div className='multicolorboxescontainer'>
     <div className='multicolorboxes'>
@@ -145,7 +146,7 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
         <p>We believe in learning through experimentation. Our aim is to<br/>
         nurture and grow bright young minds from the get-go because <br/>
         thats's how our industry will thrive.</p>
-        <a href=''>LEARN MORE</a>
+        <Link to='./LearnablePd'>LEARN MORE</Link>
     </div>
 </section>
  <div className='mainboxes'>
@@ -212,12 +213,12 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
             <h3>Learning Doesn't Always Have<br/>
             To Be In The Classroom </h3>
             <p>We have designed other learning activities that aren't <br/>
-            classroom based. You will learn how to be betterbperson, how to <br/>
+            classroom based. You will learn how to be better person, how to <br/>
             have good conversation, how to work better with people and most<br/>
             importantly, how to lead other people. Hey! We'll even teach you <br/>
             how to run a business during the Learnable Business Sessions. 
             </p>
-            <a href=''>LEARN MORE</a>
+            <Link to='./LearnablePd'>LEARN MORE</Link>
             </text>
             <figure className='mainboxfigure'>the box</figure>
             </div>
@@ -235,7 +236,7 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
                  sketches to the final functioning<br/> product. You'll then get to show
                  off your special project to everyone.
             </p>
-            <a href=''>GET STARTED</a>
+            <Link to='./Learnablehomepage'>GET STARTED</Link>
             </text>
             </div>
             <section className='homefaq'>
@@ -244,21 +245,21 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
                          </section>
                     <section className='links'>
                         {/* loop could shorten this code */}
-                    <div> <a href=''> <h4>How many people can attend a course?</h4></a></div> 
-                    <div> <a href=''> <h4>What's the learning experience like </h4></a></div>
-                    <div> <a href=''> <h4>Who are the coaches?</h4></a></div> 
-                    <div> <a href=''> <h4>How long in advance should we book?</h4></a></div>
-                    <div> <a href=''> <h4>Can you customize your courses?</h4></a></div>
+                    <div> <Link to='./Faq'> <h4>How many people can attend a course?</h4> </Link></div> 
+                    <div> <Link to='./Faq'> <h4>What's the learning experience like </h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Who are the coaches?</h4></Link></div> 
+                    <div> <Link to='./Faq'> <h4>How long in advance should we book?</h4></Link></div>
+                    <div> <Link to='./Faq'> <h4>Can you customize your courses?</h4></Link></div>
             </section>
             </section>
              <section className='learnablesw'>
                <h3>JOURNAL</h3>
-               <a href=''>VIEW ALL</a>
+               <Link to='./Journal'>VIEW ALL</Link>
                          </section>
                 <section className='journalbottom'>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -269,7 +270,7 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -280,7 +281,7 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                                <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>
@@ -291,7 +292,7 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
                             </div>
                             <div className='journalbottomsections'>
                                 <div className='journalbox'>gcsgdgd</div>
-                                <a href=''>INSPIRATION</a>
+                               <Link to='./Journal'>INSPIRATION</Link>
                                 <h4>Learn Design<br/>
                                 Thinking Like A<br/>
                                 Pro And Build <br/>

@@ -3,6 +3,7 @@ import {
     FaTwitter, FaFacebook, FaViber, FaLinkedin, FaYoutube, FaInstagram
 } from 'react-icons/fa'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {Link } from "react-router-dom";
 
 class Footer extends Component {
     state = {  }
@@ -29,17 +30,17 @@ class Footer extends Component {
                  </div>
               <section className='footerbottomsec'>
                   <div className='footerlist'>
-                      <li><a href=''>BUILD SOFTWARE</a></li> 
-                      <li><a href=''>DESIGN DIFFERENT</a></li>   
-                        <li><a href=''>APPLY YOUR KNOWLEDGE</a></li>
-                       <li><a href=''>FAQ</a></li> 
+                      <li><Link to='./LearnableSw'>BUILD SOFTWARE</Link></li> 
+                      <li><Link to='./LearnablePd'>DESIGN DIFFERENT</Link></li>   
+                        <li><Link to='./Apply'>APPLY YOUR KNOWLEDGE</Link></li>
+                       <li><Link to='./Faq'>FAQ</Link></li> 
                   </div>
 
                   <div className='footerlocation' >
                       <p>Our Local Campus center: Kilometer 7, EnuguPort<br/>
                       Harcout, Expressway, Centenary City, Enugu.<br/>
                       Nigeria.</p>
-                      <a href=''>GET IN TOUCH</a>
+                      <Link to='./'>GET IN TOUCH</Link>
                   </div>
                   <div className='footermainboxes'>
     < div className='footermainboxfigure'>the box</div> 
@@ -48,7 +49,7 @@ class Footer extends Component {
         a collaborative effort of <br/>
         all the arms of our <br/>product team
         </p>
-        <a href=''>HEAD TO DEVSTUDIO</a>
+        <Link to='./'>HEAD TO DEVSTUDIO</Link>
     </text>
 </div>
               </section>
