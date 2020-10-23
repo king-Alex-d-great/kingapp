@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route,} from "react-router-dom";
-import './FontAwesome';
 import '../style.css' ;
 import LearnableSw from './LearnableSw';
 import LearnablePd from './LearnablePd';

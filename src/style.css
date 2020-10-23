@@ -13,401 +13,465 @@ border:1px solid black;
 }
 */
 
-body{
-    background-color: white;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+body {
+  background-color: white;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 /* navbar */
 ul {
-    
-    list-style-type: none;
+  list-style-type: none;
 }
 .mainNav {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 10px 50px 10px;
-    font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 50px 10px;
+  font-size: 12px;
 }
-.container{
-    margin: 30px auto;
+.container {
+  margin: 30px auto;
 }
-.navListitems{
-margin-right: 15px;
+.navListitems {
+  margin-right: 15px;
 }
 .navList {
-    display:flex;
-    padding:5px;
+  display: flex;
+  padding: 5px;
 }
-.button{
-    border:1px solid black;
-    border-radius: 5px;
-    padding: 5px;
+.button {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
 }
-.build{
-    align-items:center;
-    display: flex;
-    justify-content: space-between;
+.build {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
-.buildproduct{
-    font-size: 8px;
-    margin-right: 15px;
+.buildproduct {
+  font-size: 8px;
+  margin-right: 15px;
 }
 
 /* homepage */
-.section1{
-margin: 40px ;
-padding: 40px;
+.section1 {
+  margin: 40px;
+  padding: 40px;
 }
-.bigger{
-    font-size: xx-large ;
+.bigger {
+  font-size: xx-large;
 }
-.image1{
-    display:flex;
-    height: 250px;
-    justify-content: center;
-    align-content: center;
+.image1 {
+  display: flex;
+  height: 250px;
+  justify-content: center;
+  align-content: center;
 }
 .image1 > icon {
-    width: 5%;
-    margin:auto;
+  width: 5%;
+  margin: auto;
 }
 .iconbox {
-width: 95%;
-height:100%;
-margin-right: 0px;
-border:1px solid black;
-
+  width: 95%;
+  height: 100%;
+  margin-right: 0px;
+  border: 1px solid black;
 }
-.mainboxes{
-    display:flex;
-    align-content: center;
-    height: 500px;
-    padding:50px 10px 0px 10px;
+.mainboxes {
+  display: flex;
+  align-content: center;
+  height: 500px;
+  padding: 50px 10px 0px 10px;
 }
-.mainboxescolor{
-    display:flex;
-    align-content: center;
-    height: 500px;
-    border: 1px solid black;
-    padding:50px 10px 0px 10px;
-    background-color:rgb(240, 239, 239) ;
+.mainboxescolor {
+  display: flex;
+  align-content: center;
+  height: 500px;
+  border: 1px solid black;
+  padding: 50px 10px 0px 10px;
+  background-color: rgb(240, 239, 239);
 }
-.mainboxfigure{
-    border: 3px solid blue;
-    height: 70%;
-    width: 50%;
+.mainboxfigure {
+  border: 3px solid blue;
+  height: 70%;
+  width: 50%;
 }
- text {
-    display:flex;
-    flex-direction: column;
-   justify-content: center;
-   height:70%;
-   width:50%;
+text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 70%;
+  width: 50%;
 }
-.bottomboxes{
-    display:flex;
-    justify-content: space-around;
-    
+.bottomboxes {
+  display: flex;
+  justify-content: space-around;
 }
-.innerbottomboxes1{
-    display:flex;
-    flex-wrap: wrap;
-    width:400px;
-    height:300px;
-    justify-content: center;
+.innerbottomboxes1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
 }
-.innerbottombox{
-    border: 1px solid black;
-    width:180px;
+.innerbottombox {
+  border: 1px solid black;
+  width: 180px;
 }
-.bottomboxes > div > h1{
-    font-size: 50px;
-    font-weight: bolder;
+.bottomboxes > div > h1 {
+  font-size: 50px;
+  font-weight: bolder;
 }
-.small{
-    border: 2px solid black;
-    width:100px;
-    height:80px;
+.small {
+  border: 2px solid black;
+  width: 100px;
+  height: 80px;
 }
 
 /* navbar2 */
-.nav2lists{
-    display:flex;
-    justify-content: center;
-   background-color: rgb(6, 6, 58);
-   padding: 5px 5px;
-
+.nav2lists {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(6, 6, 58);
+  padding: 5px 5px;
 }
 
-.nav2lists>li>a{
-    margin-right:10px;
-    color: white;
-    font-size: 12px;
+.nav2lists > li > a {
+  margin-right: 10px;
+  color: white;
+  font-size: 12px;
+}
+v
+/* learnable product */
+.learnablecontainer > h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  margin-left: 50px;
+  color: rgb(6, 6, 58);
+}
+.learnablecontainer > article {
+  margin-left: 50px;
 }
 
 /* learnable software */
-.learnablesw{
-    display:flex;
-    justify-content: space-between;
-    margin:auto;
+.learnablesw {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
 }
-.learnablesw>h1{
-    font-weight: bolder;
-    font-size: 50px;
-    margin-left: 50px;
-    color:  rgb(6, 6, 58);
-}
-.circleimage{
-    background-color: plum;
-    width: 200px;
-    height:200px;
-   border-radius: 50%;
-   margin: auto;
-}
-.container>h1{
-    color: rgb(35, 106, 58)
-}
-.articlebar{
-    text-align: center;
+.learnablesw > h1 {
+  font-weight: bolder;
+  font-size: 60px;
+  margin-left: 50px;
+  color: rgb(6, 6, 58);
 }
 
-.smalltext{
-    font-size: small;
+.circleimage {
+  background-color: plum;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
+}
+.container > h1 {
+  color: rgb(35, 106, 58);
+}
+.articlebar {
+  text-align: start;
+  width: 500px;
+  margin: 20px auto 150px;
+}
+
+.smalltext {
+  font-size: small;
 }
 
 /* special box */
-.specialbox{
-    width: 500px;
-    height:500px;
-    border: 1px solid black;
-    margin:auto;
-}
-/* faq*/
-.links > div{
-    margin:auto;
-border-bottom: 1px solid lightgray;
-width:20em;
-}
-/*journal */
-.journaltop{
-    display:flex;
-    border:2px solid black;
-    justify-content: space-around;
-  ;
-    
-}
-.journaltop>div>h1{
-    font-weight: bolder;
-    font-size: 50px;
-    padding:50px;
-}
-.journaltopside>{
-    display:flex;
-    flex-direction: column;
-    border: 2px solid black;
-    width: 50%;
-}
-.journalbottom{
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.journalbottomsections{
-    display:flex;
-    flex-direction: column;
-    border:1px solid black;
-    width:17em;
-    margin-right: 15px;
-    height:500px;
-    margin-bottom: 15px;
-    }
-.journalbox{
-    flex: 1 1 25%;
-    width:100%;
-    height:15em;
-    background-color: lime;
-}
-.btn{
-    display:flex;
-    justify-content:center;
-    align-content:center;
-}
-/*footer*/
-.iconbox{
-    display:flex;
-    align-items: center;
-    align-content:center ;
-    justify-content: space-evenly;
-    height:100%;
-}
-.iconbox > h4{
-    font-size: x-large;
-}
-.footerEmailpolicy{
-    width:20em;
-}
-.footersmall{
-    display:flex;
-    justify-content: center;
-    height:100%;
-    width: 50%;
-}
-.footersmall > div{
-    margin:auto;
-    font-size: x-small;
-}
-.footerbottomsec{
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: x-small;
-    margin: 20px 0 20px 0;
-    height:20em;
-}
-.footerlocation{
-    line-height:30px;
-    margin-top: 5px;
-}
-.footerlist{
-    line-height: 35px;
-    list-style-type: none;
-}
-.footermainboxes{
-    display:flex;
-    align-content: center;
-   padding: 30px 20px 0 0;
+.specialbox {
+  width: 800px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 40px auto;
 }
 
-.footermainboxfigure{
-    border: 3px solid yellow;
-    height:150px;
-    width: 250px;
-    margin-right:50px
+/* faq */
+.links {
+  margin-top: 150px;
 }
-.footertext{
-    align-self: flex-end;
+.links > div {
+  margin: auto;
+  border-bottom: 1px solid lightgray;
+  width: 22em;
 }
-.privacy{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width:400px;
-    margin: 50px auto;
+.Faqcontainer > .learnablesw > div {
+  margin-left: 700px;
 }
-.lastpolicy{
-    display:flex;
-    width:80%;
-    justify-content: space-evenly;
-}
-.lasticons{
-    width:100%;
+.faqlinks{
     display:flex;
     justify-content: space-between;
+    align-content: center;
+}
+.faqlinks > div {
+    margin:auto;
+    margin-right: 0px;
+}
+
+/*journal */
+.journaltop {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-around;
+}
+.journaltop > div > h1 {
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 50px;
+}
+.journaltopside > {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 50%;
+}
+.journalbottom {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.journalbottomsections {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 17em;
+  margin-right: 15px;
+  height: 500px;
+  margin-bottom: 15px;
+}
+.journalbox {
+  flex: 1 1 25%;
+  width: 100%;
+  height: 15em;
+  background-color: lime;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+/*footer*/
+.iconbox {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.iconbox > h4 {
+  font-size: x-large;
+}
+.footerEmailpolicy {
+  width: 20em;
+}
+.footersmall {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+}
+.footersmall > div {
+  margin: auto;
+  font-size: x-small;
+}
+.footerbottomsec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-small;
+  margin: 20px 0 20px 0;
+  height: 20em;
+}
+.footerlocation {
+  line-height: 30px;
+  margin-top: 5px;
+}
+.footerlist {
+  line-height: 35px;
+  list-style-type: none;
+}
+.footermainboxes {
+  display: flex;
+  align-content: center;
+  padding: 30px 20px 0 0;
+}
+
+.footermainboxfigure {
+  border: 3px solid yellow;
+  height: 150px;
+  width: 250px;
+  margin-right: 50px;
+}
+.footertext {
+  align-self: flex-end;
+}
+.privacy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  margin: 50px auto;
+}
+.lastpolicy {
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.lasticons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* learnablehomepage*/
-.brochure{
+.brochure {
+  display: flex;
+  padding: 20px;
+  background-color: gold;
+  align-content: center;
+}
+.click {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto 0px auto;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.circles {
+  display: flex;
+  border: 2px solid green;
+  justify-content: flex-end;
+  width: 32%;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: 0%;
+}
+.circleimagetext{
+ display:flex;
+ flex-direction: column;
+ margin:auto;
+ align-items: stretch;
+}
+.bigtext {
+  font-size: larger;
+}
+
+.section {
+ font-weight: bolder;
+  font-size: 60px;
+  margin-left: 50px;
+  color: rgb(6, 6, 58)
+}
+.homepagelink{
     display:flex;
-    padding:20px;
-    background-color: gold;
+    justify-content: space-between;
     align-content: center;
+    width:150px;
+    margin:50px auto;
 }
-.click{
-    display: flex;
-    flex-direction: column;
-    margin:20px auto 0px auto;
-    justify-content: space-around;
-    height: 100%;
-}
-
-.circles{
-    display: flex;
-    border:2px solid green;
-    justify-content: flex-end;
-    width:32%;
-    position: absolute;
-    margin-left:60%;
-    margin-top: 0%;
-}
-.bigtext{
-    font-size: larger;
+.homepagelink > div {
+    margin:auto;
+    margin-right: 0px;
 }
 
-/*.section1{
-    font-size: 55px;
-} */
 
-.learnablenumbers{
-    display:flex;
-     margin:auto;
-    justify-content: center;
-    height: 100%;
+.learnablenumbers {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  height: 100%;
 }
 .learnablenumbers > div {
-    margin-right: 75px;
+  margin-right: 75px;
 }
-.topnumber{
-    font-size: larger;
-    color: rgb(0, 128, 79)
+.topnumber {
+  font-size: larger;
+  color: rgb(0, 128, 79);
 }
-.multicolor{
-    display:flex;
-    align-content: center;
-    justify-content: space-between;
-    margin: auto;
-    border: 1px solid black;
-    padding:50px 10px 0px 10px;
+.multicolor {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  margin: auto;
+  border: 1px solid black;
+  padding: 50px 10px 0px 10px;
 }
-.multicolortext{
-    text-align: center;
-    height:100%;
-    margin:auto;
+.multicolortext {
+  text-align: center;
+  height: 100%;
+  margin: auto;
 }
-.multicolorboxescontainer{
-    width:50%;
-    align-content: center;
+.multicolorboxescontainer {
+  width: 50%;
+  align-content: center;
 }
 
-.multicolorboxes{
-    margin: 0px auto;
-    display:flex;
-    flex-wrap: wrap;
-    width:500px;
-    
+.multicolorboxes {
+  margin: 0px auto 100px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
 }
-.multicolorbox{
-width:200px;
-height:250px;
+.multicolorbox {
+  width: 200px;
+  height: 250px;
 }
-.multicolorboxes > div:nth-child(1){
-    background-color: rgb(6, 6, 58);
-    color:white;
+.multicolorboxes > div:nth-child(1) {
+  background-color: rgb(6, 6, 58);
+  color: white;
 }
-.multicolorboxes > div:nth-child(2){
-    background-color: rgb(27, 122, 99);
-    color:white;
-}.multicolorboxes > div:nth-child(3){
-    background-color: rgb(247, 231, 6);
-    color:black;
-}.multicolorboxes > div:nth-child(4){
-    background-color: rgb(26, 8, 8);
-    color:white;
-}.multicolorboxes > div:nth-child(5){
-    background-color: rgb(26, 25, 25);
-    color:white;
-}.multicolorboxes > div:nth-child(6){
-    background-color: rgb(228, 72, 0);
-    color:white;
+.multicolorboxes > div:nth-child(2) {
+  background-color: rgb(27, 122, 99);
+  color: white;
 }
-.experttext{
-    font-size: 30px;
+.multicolorboxes > div:nth-child(3) {
+  background-color: rgb(247, 231, 6);
+  color: black;
 }
-.homefaq1{
-    display:flex;
-    justify-content: space-between;
-    margin:auto;
+.multicolorboxes > div:nth-child(4) {
+  background-color: rgb(26, 8, 8);
+  color: white;
 }
-.learnablesw > h3{
-    font-size: 20px;
+.multicolorboxes > div:nth-child(5) {
+  background-color: rgb(26, 25, 25);
+  color: white;
+}
+.multicolorboxes > div:nth-child(6) {
+  background-color: rgb(228, 72, 0);
+  color: white;
+}
+.experttext {
+  font-size: 30px;
+}
+.homefaq1 {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+.learnablesw > h3 {
+  font-size: 20px;
+}
+/* apply */
+.squareimage {
+  background-color: plum;
+  width: 400px;
+  height: 250px;
+  margin: auto;
+}
+.Applycontainer > article {
+  margin-bottom: 100px;
+}
+.weirdbox {
+  border: 2px solid greenyellow;
+  height: 80px;
+  width: 120px;
 }

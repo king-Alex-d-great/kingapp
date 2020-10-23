@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar2 from './Navbar2';
 import Navbar from './Navbar';
 import Box from './box';
+import Footer from './footer';
 
 class LearnableSw extends Component {
     state = {  }
@@ -10,7 +11,7 @@ class LearnableSw extends Component {
          <main className='LearnableSw'>
              <Navbar/>
             <Navbar2/>
-            <div className='container'>
+            <div className='learnablecontainer'>
                <section className='learnablesw'>
                    <h1>The<br/>Learnable<br/>software<br/>Developer</h1>
                    <div className='circleimage'></div>
@@ -55,7 +56,7 @@ class LearnableSw extends Component {
                         doesnt't just work flawlessly but looks amazing.</p>
                     </article>
                 </section>
-                <footer/>
+                <Footer />
             </div>
         </main> );
     }

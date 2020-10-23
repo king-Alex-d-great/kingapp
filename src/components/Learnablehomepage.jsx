@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import {FaAngleRight} from 'react-icons/fa';
 import Footer from './footer';
 import { Link } from "react-router-dom";
+import Navbar from './Navbar';
+import Navbar2 from './Navbar2';
 
 class Learnablehomepage extends Component {
     state = {  }
     render() { 
         return ( 
             <section className='Learnablehomepage'>
+                <Navbar />
+                <Navbar2 />
                 <div className='brochure'>
                     <div className='brochuretext1'>
                         <h4 className='bigtext'>Coming Soon: Learnable '20</h4>
@@ -21,22 +26,37 @@ class Learnablehomepage extends Component {
                     </div>
                 </div>
   <section>
-   <h1 className='section1'> Everything<br/>is Learnable</h1>
+   <h1 className='section'> Everything<br/>is Learnable</h1>
                         <p>Learnable is the perfect product<br/>
                         development internship program brought to<br/>
                         you by Genesys</p>
                         <div className='circles'>
-<div className='circleimage'></div>
-                        <div className='circleimage'></div>
+                        <div className='circleimage'>
+                         <div className='circleimagetext'>
+                             <div className='homepagelink'>
+                                 <Link to='./Faq'> <h3>Development </h3></Link><div><FaAngleRight /></div>
+                            </div>   
+
+                        </div>
+                        </div>
+
+                        <div className='circleimage'> 
+                        <div className='circleimagetext'>
+                            <div className='homepagelink'>
+                              <Link to='./Faq'> <h3>Development </h3></Link><div><FaAngleRight /></div>
+                            </div>  
+                            
+                        </div>
                         
                         </div>
-                        </section>
-                        <div className='image1'>
-<icon> arrow </icon>
-<span><figure className='iconbox'></figure>
-</span>
-</div>
                        
+                        </div>
+                </section> 
+
+                        <div className='image1'>
+                            <icon> arrow </icon>
+                            <span><figure className='iconbox'></figure></span>
+                        </div>                 
             <div className='learnablenumbers'>
                 <div><h4 className='topnumber'>305</h4><p>Young software<br/>Developers Trained</p></div>
                 <div><h4 className='topnumber'>2100</h4><p>Tech Enthusiasts</p></div>
@@ -184,12 +204,14 @@ and problem-solving. To us, every task is an opportunity to learn.</p>
             <p>We believe learning should be a fun experience. For this reason, we <br/>
             don't do all the learning in the classroom.
             </p>
+
             <p>The learnable experience can not be complete without the bag of <br/>
             fun times which you'll have. To us, every task is an opportunity to<br/>
             have some fun. But we do do well to throwto throw in a good number of <br/>
             activities to add to thisto thisto. You will find yourself partaking in a lot of <br/>
             healthy activities such as cooking, sports, music hangouts, and<br/>
             even random dates</p>
+
             <p>Trust us when we say we know to have fun.</p>
             </text>
              <figure className='mainboxfigure'>the box</figure>

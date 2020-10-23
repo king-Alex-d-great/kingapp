@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
-import Box from './box'
+import Box from './box';
+import Footer from './footer';
 
 class LearnablePd extends Component {
     state = {  }
@@ -10,7 +11,7 @@ class LearnablePd extends Component {
             <main className='LearnablePd'>
             <Navbar/>
            <Navbar2/>
-           <div className='container'>
+           <div className='learnablecontainer'>
               <section className='learnablesw'>
                   <h1>The<br/>Learnable<br/>Product<br/>Designer</h1>
                   <div className='circleimage'></div>
@@ -58,7 +59,7 @@ class LearnablePd extends Component {
                       how but also the why.</span></p>
                    </article>
                </section>
-               <footer/>
+               <Footer/>
            </div>
        </main> );
     }

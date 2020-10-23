@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import {
-    FaTwitter, FaFacebook, FaViber, FaLinkedin, FaYoutube, FaInstagram
-} from 'react-icons/fa'
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+    FaTwitter,
+     FaFacebook,
+      FaViber, 
+      FaLinkedin,
+       FaYoutube,
+        FaInstagram,
+        FaArrowUp,
+        } from 'react-icons/fa';
 import {Link } from "react-router-dom";
 
 class Footer extends Component {
@@ -12,7 +17,7 @@ class Footer extends Component {
              <section className="Footer">
                  <div class='container'>
                  <div className='image1'>
-                    <FontAwesomeIcon icon='Arrow-up' />
+                <icon> <FaArrowUp /></icon>   
                     <div className='iconbox'>
                         <h4>Stay Up To Date On What We<br/>
                             Are Doing And New Learning<br/>
@@ -45,7 +50,7 @@ class Footer extends Component {
                   <div className='footermainboxes'>
     < div className='footermainboxfigure'>the box</div> 
     <text className='footertext'>
-       <FontAwesomeIcon icon='Twitter' /> <p>Learnable is proud to be<br/>
+       <p>Learnable is proud to be<br/>
         a collaborative effort of <br/>
         all the arms of our <br/>product team
         </p>
