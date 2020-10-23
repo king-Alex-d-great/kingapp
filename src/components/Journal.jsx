@@ -35,6 +35,7 @@ class Journal extends Component {
         <Link to='./LearnablePd'>LEARN MORE</Link>
     </text>
 </div>
+
                         </section>
                         <section classame='journalbottom'>
                             <div className='journalbottomsections'>

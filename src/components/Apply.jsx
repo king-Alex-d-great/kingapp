@@ -5,7 +5,6 @@ import Navbar2 from './Navbar2';
 import Box from './box';
 import Footer from './footer'
 
-
 class Apply extends Component {
     state = {  }
     render() { 

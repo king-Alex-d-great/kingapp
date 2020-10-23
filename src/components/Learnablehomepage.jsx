@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {FaAngleRight} from 'react-icons/fa';
 import Footer from './footer';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import Navbar2 from './Navbar2';
 
@@ -57,117 +57,116 @@ class Learnablehomepage extends Component {
                             <icon> arrow </icon>
                             <span><figure className='iconbox'></figure></span>
                         </div>                 
-            <div className='learnablenumbers'>
-                <div><h4 className='topnumber'>305</h4><p>Young software<br/>Developers Trained</p></div>
-                <div><h4 className='topnumber'>2100</h4><p>Tech Enthusiasts</p></div>
-                <div><h4 className='topnumber'>8</h4><p>StartUps Incubated</p></div>
-                <div><h4 className='topnumber'>250</h4><p>Small Businesses<br/>Supported</p></div>
-            </div>
+                        <div className='learnablenumbers'>
+                            <div><h4 className='topnumber'>305</h4><p>Young software<br/>Developers Trained</p></div>
+                            <div><h4 className='topnumber'>2100</h4><p>Tech Enthusiasts</p></div>
+                            <div><h4 className='topnumber'>8</h4><p>StartUps Incubated</p></div>
+                            <div><h4 className='topnumber'>250</h4><p>Small Businesses<br/>Supported</p></div>
+                        </div>
+
+                        <div className='mainboxes'>
+                        
+                            <text>
+                            <h3>We Make People Great</h3>
+                            <p>As part of our calculated efforts to contribute to the emerging<br/>
+                            knowledge and skills driven economy of Nigeria, Learnable is a <br/>
+                            6-month product development training program with an emphasis <br/>
+                            on software programming and product design. It is for outstanding<br/>
+                            young individuals who are passionate about building a career in the<br/>
+                            software industry</p>
+                            <p>We primarily educate and groom software developers and<br/>
+                            designers, preparing them for the industry</p>
+                            </text><figure className='circleimage'>the box</figure>
+                        </div>
 
             <div className='mainboxes'>
-            
-            <text>
-            <h3>We Make People Great</h3>
-            <p>As part of our calculated efforts to contribute to the emerging<br/>
-            knowledge and skills driven economy of Nigeria, Learnable is a <br/>
-            6-month product development training program with an emphasis <br/>
-            on software programming and product design. It is for outstanding<br/>
-            young individuals who are passionate about building a career in the<br/>
-             software industry</p>
-             <p>We primarily educate and groom software developers and<br/>
-             designers, preparing them for the industry</p>
-            </text><figure className='circleimage'>the box</figure>
+                <figure className='mainboxfigure'>the box</figure>
+                <text>
+                <h3>An unusual Learning <br/> Experience</h3>
+                <p>At Genesys, we believe in the learning processes as much as we believe in the <br/>
+                results. By applying a combination of active and social learning methodologies,<br/>
+                we create an environment that involves the learner in the learning process<br/>
+                while providingg avenue for collaboration and peer-to-peer mentorship.
+                </p>
+                <p>our methods over the years have helped us discover ways to take education<br/>
+                out of the classroom. We introduce our interns to learning by experimentation<br/>
+                and problem-solving. To us, every task is an opportunity to learn.</p>
+                </text>
             </div>
 
-            <div className='mainboxes'>
-<figure className='mainboxfigure'>the box</figure>
-<text>
-<h3>An unusual Learning <br/> Experience</h3>
-<p>At Genesys, we believe in the learning processes as much as we believe in the <br/>
-results. By applying a combination of active and social learning methodologies,<br/>
-we create an environment that involves the learner in the learning process<br/>
-while providingg avenue for collaboration and peer-to-peer mentorship.
-</p>
-<p>our methods over the years have helped us discover ways to take education<br/>
-out of the classroom. We introduce our interns to learning by experimentation<br/>
-and problem-solving. To us, every task is an opportunity to learn.</p>
-</text>
-</div>
+        <section className='multicolor'>
+            <div className='multicolortext'>
+                    <p className='smalltext'>FOR DEVELOPERS</p>
+                    <h2>Learn To Build Software<br/>
+                    The Right Way</h2>
+                    <p>We love to build stufff. Really awesome stuff. That's why we <br/>
+                    have developed a learning program that will empoer you to<br/>
+                    create amazing software the right way.</p>
+                    <p>We believe in learning through experimentation. Our aim is to<br/>
+                    nurture and grow bright young minds from the get-go because <br/>
+                    thats's how our industry will thrive.</p>
+                    <Link to='./LearnableSw'>LEARN MORE</Link>
+                </div>
+                <div className='multicolorboxescontainer'>
+                <div className='multicolorboxes'>
+                    <div className='multicolorbox'>
+                        <h2>Program With<br/> Javascript</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Version Control<br/>With Git</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Web <br/> Development <br/> With React</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Building APIs<br/>With NodeJS</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Managing Data<br/> With MongoDB</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Deploying With <br/>Heroku</h2>
+                    </div>
+                </div>
+                </div>
+        </section>
 
-<section className='multicolor'>
-   <div className='multicolortext'>
-        <p className='smalltext'>FOR DEVELOPERS</p>
-        <h2>Learn To Build Software<br/>
-        The Right Way</h2>
-        <p>We love to build stufff. Really awesome stuff. That's why we <br/>
-        have developed a learning program that will empoer you to<br/>
-        create amazing software the right way.</p>
-        <p>We believe in learning through experimentation. Our aim is to<br/>
-        nurture and grow bright young minds from the get-go because <br/>
-        thats's how our industry will thrive.</p>
-        <Link to='./LearnableSw'>LEARN MORE</Link>
-    </div>
-    <div className='multicolorboxescontainer'>
-    <div className='multicolorboxes'>
-        <div className='multicolorbox'>
-            <h2>Program With<br/> Javascript</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Version Control<br/>With Git</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Web <br/> Development <br/> With React</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Building APIs<br/>With NodeJS</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Managing Data<br/> With MongoDB</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Deploying With <br/>Heroku</h2>
-        </div>
-    </div>
-    </div>
-</section>
-
-
-<section className='multicolor'>
+        <section className='multicolor'>
      
-    <div className='multicolorboxescontainer'>
-    <div className='multicolorboxes'>
-        <div className='multicolorbox'>
-            <h2>Program With<br/> Javascript</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Version Control<br/>With Git</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Web <br/> Development <br/> With React</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Building APIs<br/>With NodeJS</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Managing Data<br/> With MongoDB</h2>
-        </div>
-        <div className='multicolorbox'>
-            <h2>Deploying With <br/>Heroku</h2>
-        </div>
-    </div>
-    </div>
-    <div className='multicolortext'>
-        <p className='smalltext'>FOR DEVELOPERS</p>
-        <h2>Learn To Build Software<br/>
-        The Right Way</h2>
-        <p>We love to build stufff. Really awesome stuff. That's why we <br/>
-        have developed a learning program that will empoer you to<br/>
-        create amazing software the right way.</p>
-        <p>We believe in learning through experimentation. Our aim is to<br/>
-        nurture and grow bright young minds from the get-go because <br/>
-        thats's how our industry will thrive.</p>
-        <Link to='./LearnablePd'>LEARN MORE</Link>
-    </div>
+            <div className='multicolorboxescontainer'>
+                <div className='multicolorboxes'>
+                    <div className='multicolorbox'>
+                        <h2>Program With<br/> Javascript</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Version Control<br/>With Git</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Web <br/> Development <br/> With React</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Building APIs<br/>With NodeJS</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Managing Data<br/> With MongoDB</h2>
+                    </div>
+                    <div className='multicolorbox'>
+                        <h2>Deploying With <br/>Heroku</h2>
+                    </div>
+                </div>
+            </div>
+            <div className='multicolortext'>
+                <p className='smalltext'>FOR DEVELOPERS</p>
+                <h2>Learn To Build Software<br/>
+                The Right Way</h2>
+                <p>We love to build stufff. Really awesome stuff. That's why we <br/>
+                have developed a learning program that will empoer you to<br/>
+                create amazing software the right way.</p>
+                <p>We believe in learning through experimentation. Our aim is to<br/>
+                nurture and grow bright young minds from the get-go because <br/>
+                thats's how our industry will thrive.</p>
+                <Link to='./LearnablePd'>LEARN MORE</Link>
+            </div>
 </section>
  <div className='mainboxes'>
             
